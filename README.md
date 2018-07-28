@@ -9,7 +9,7 @@ MySQL database is included.
 XDebug is also included. How to setup IDE for debuggin:
 https://blog.philipphauer.de/debug-php-docker-container-idea-phpstorm/
 
-Connection details
+# Connection details
 	HTTP: 8080
 	Database port: 3306
 	Database login: root:docker
