@@ -6,7 +6,8 @@
 
 MySQL database is included.
 
-XDebug is also included. How to setup IDE for debuggin:
+XDebug is also included. How to setup IDE for debugging:
+
 https://blog.philipphauer.de/debug-php-docker-container-idea-phpstorm/
 
 # Connection details
