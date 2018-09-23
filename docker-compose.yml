@@ -8,6 +8,8 @@ services:
       - "8080:80"
     volumes:
       - ./www:/var/www/html
+      - ./vhosts:/etc/apache2/sites-available
+      - ./vhosts:/etc/apache2/sites-enabled
     links:
       - db
 
@@ -19,5 +21,7 @@ services:
       - ./db:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=docker
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
       - MYSQL_DATABASE=db_dev
 
